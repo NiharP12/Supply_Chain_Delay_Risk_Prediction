@@ -31,9 +31,9 @@ This project leverages Python and Machine Learning (ML) to automate the predicti
 
 - Hyperparameters:
 
- - class_weight="balanced" — to address class imbalance.
+  - class_weight="balanced" — to address class imbalance.
 
- - random_state=42 — to ensure consistent results.
+  - random_state=42 — to ensure consistent results.
 
 - Sampling Technique: Random Over Sampling (ROS) was applied only to the training data to increase the representation of delayed shipments and improve recall.
 
