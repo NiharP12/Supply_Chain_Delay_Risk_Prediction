@@ -52,16 +52,5 @@ This model is highly effective at predicting potential delays, helping businesse
 
 # Conclusion
 
-This project used a Decision Tree model with Random Over Sampling to predict delivery delays in the supply chain. The final model achieved:
-
-- Accuracy: 99.99%
-
-- F1 Score: 99.99
-
-- Precision: 99.99
-
-- Recall: 99.99
-
-The model is highly effective in identifying delays, helping businesses reduce risks and improve logistics efficiency.
-
+This project successfully demonstrates how machine learning, particularly Decision Tree classification, can be applied to predict supply chain delays. With proper feature engineering and handling class imbalance using Random Over Sampling, the model delivers highly reliable results. The final output supports data-driven decision-making for proactive delay mitigation.
 
