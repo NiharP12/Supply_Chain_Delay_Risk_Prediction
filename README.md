@@ -22,30 +22,30 @@ This project leverages Python and Machine Learning (ML) to automate the predicti
 🔹 Python
 - Data Handling: Used pandas and numpy to clean, merge, and process the data efficiently.
 
-Visualization: Libraries like matplotlib and seaborn were used to generate KPIs, charts, and to understand patterns in the delay data.
+- Visualization: Libraries like matplotlib and seaborn were used to generate KPIs, charts, and to understand patterns in the delay data.
 
-Evaluation: scikit-learn provided functions to calculate model accuracy, F1-score, confusion matrix, precision, and recall.
+- Evaluation: scikit-learn provided functions to calculate model accuracy, F1-score, confusion matrix, precision, and recall.
 
 🔹 Machine Learning
-Model Used: A Decision Tree Classifier was trained to classify whether a shipment would be delayed or not.
+- Model Used: A Decision Tree Classifier was trained to classify whether a shipment would be delayed or not.
 
-Hyperparameters:
+- Hyperparameters:
 
-class_weight="balanced" — to address class imbalance.
+ - class_weight="balanced" — to address class imbalance.
 
-random_state=42 — to ensure consistent results.
+ - random_state=42 — to ensure consistent results.
 
-Sampling Technique: Random Over Sampling (ROS) was applied only to the training data to increase the representation of delayed shipments and improve recall.
+- Sampling Technique: Random Over Sampling (ROS) was applied only to the training data to increase the representation of delayed shipments and improve recall.
 
-Goal: Reduce false negatives (undetected delays) while maintaining high precision.
+- Goal: Reduce false negatives (undetected delays) while maintaining high precision.
 
 ✅ Model Performance:
-Accuracy: 99.99607187594111%
+- Accuracy: 99.99607187594111%
 
-F1 Score: 99.99607793577403
+- F1 Score: 99.99607793577403
 
-Precision: 99.99302765406706
+- Precision: 99.99302765406706
 
-Recall: 99.99912840358401
+- Recall: 99.99912840358401
 
 This model is highly effective at predicting potential delays, helping businesses take proactive actions in the supply chain.
