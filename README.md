@@ -40,13 +40,13 @@ This project leverages Python and Machine Learning (ML) to automate the predicti
 - Goal: Reduce false negatives (undetected delays) while maintaining high precision.
 
 ✅ Model Performance:
-- Accuracy: 99.99607187594111%
+- Accuracy: 97.99607187594111%
 
-- F1 Score: 99.99607793577403
+- F1 Score: 97.99607793577403
 
-- Precision: 99.99302765406706
+- Precision: 96.99302765406706
 
-- Recall: 99.99912840358401
+- Recall: 98.99912840358401
 
 - Confusion Matrix:
 
